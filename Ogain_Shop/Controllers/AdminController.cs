@@ -11,14 +11,20 @@ namespace ProjectGroup3.Controllers
     public class AdminController : Controller
     {
         // GET: /<controller>/
+
+        // Order Management
         public IActionResult order()
         {
             return View("OrderManagement/order");
         }
+
+        // Customer Management
         public IActionResult customer() 
         {
             return View("CustomerManagement/customer");
         }
+
+        // Product Management
         public IActionResult product()
         {
             return View("ProductManagement/product");
@@ -31,6 +37,12 @@ namespace ProjectGroup3.Controllers
         public IActionResult editProduct()
         {
             return View("ProductManagement/editProduct");
+        }
+
+        // Dashboard
+        public IActionResult dashboard()
+        {
+            return View("DashboardAdmin/dashboard");
         }
     }
 }

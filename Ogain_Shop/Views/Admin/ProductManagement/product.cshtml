@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Order";
+    ViewData["Title"] = "Product";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 <main class="app-content">
@@ -16,7 +16,7 @@
                     <div class="row element-button">
                         <div class="col-sm-2">
 
-                            <a class="btn btn-add btn-sm" href="form-add-san-pham.html" title="Thêm">
+                            <a class="btn btn-add btn-sm" href="/Admin/addProduct" title="Thêm">
                                 <i class="fas fa-plus"></i>
                                 Tạo mới sản phẩm
                             </a>
@@ -102,7 +102,7 @@
                                             onclick="myFunction(this)">
                                         <i class="fas fa-trash-alt"></i>
                                     </button>
-                                    <button class="btn btn-primary btn-sm edit" type="button" title="Sửa" id="show-emp" data-toggle="modal"
+                                    <button class="btn btn-primary btn-sm edit"  type="button" title="Sửa" id="show-emp" data-toggle="modal"
                                             data-target="#ModalUP">
                                         <i class="fas fa-edit"></i>
                                     </button>
@@ -228,7 +228,7 @@
                                             onclick="myFunction(this)">
                                         <i class="fas fa-trash-alt"></i>
                                     </button>
-                                    <button class="btn btn-primary btn-sm edit" type="button" title="Sửa" id="show-emp" data-toggle="modal"
+                                    <button class="btn btn-primary btn-sm edit"  type="button" title="Sửa" id="show-emp" data-toggle="modal"
                                             data-target="#ModalUP">
                                         <i class="fas fa-edit"></i>
                                     </button>
